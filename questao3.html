@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Formulário</title>
+	<meta charset="UTF-8">
+	<meta name="Description" content="Cadastro">
+	<meta name="Keywords" content="HTML,WEB">
+    <meta name="Author" content="Thiago Cassiano Campos Abreu">
+
+     <link rel="stylesheet" type="text/css" href="prova.css">
+<head>
+
+<body>
+    <form id="form">
+    <fieldset><legend>Dados pessoas</legend>
+        <label>Código:</label><input class="codigo" type="text"><br><br>
+        <label>Nome:</label><input class="nome" type="text"><br><br>
+        <label>Senha:</label><input class="senha" type="password"><br><br>
+        <label id="sexo">Sexo:</label>
+                 <input id="masc" type="radio" name="masculino" value="m"><label id="masculino">Masculino</label>
+                 <input id="fem" type="radio" name="feminino" value="f"><label id="feminino">Feminino</label><br><br>
+        <label>Idade:</label><input class="idade" type="text"><br><br>
+        <label>Cartão de Crédito:</label><br>
+        <select id="card" size="4">
+            <option>MasterCard</option>
+            <option>Visa</option>
+            <option>AmericanExpress</option>
+        </select>
+    </fieldset>
+
+    <fieldset><legend>Dados Profissionais</legend>
+        <label id="cargo">Cargo:</label>
+                 <select id="select">
+                     <option>Analista Pleno</option>
+                     <option>Analista Júnior</option>
+                     <option>Analista Sênior</option>
+                 </select><br>
+        <label id="atv">Dados Pessoais:</label><br>
+                 <input id="fumante" type="checkbox" name="fumante" value="m">
+                 <label id="fumante">Fumante</label><br>
+                 <input id="exfis" type="checkbox" name="exfis" value="m">
+                 <label id="exfis">Pratica exercícios físicos</label><br>
+                 <input id="bebe" type="checkbox" name="bebe" value="m">
+                 <label id="bebe">Consome bebida alcoólica</label><br>
+                 <label>Experiências profissionais:</label>
+        <textarea name="experiencias" rows="5" cols="100"></textarea>
+        
+    </fieldset>
+    <input type="reset" value="Limpar">
+ <input type="submit" value="Inserir">
+
+    </form>
+   <a href="index.html"><input type="submit" value="Voltar"></a>
+<body>
+
+<html>

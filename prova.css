@@ -1,0 +1,46 @@
+body{
+	background-color: #d3d3d3;
+}
+
+dev{
+	font-style: italic;
+}
+
+#card{
+	overflow-y: auto;
+}
+
+fieldset{
+	width: 800px;
+	font-family: Times New Roman;
+}
+
+#form input.nome{
+    width: 225px;
+}
+
+#form input.codigo{
+	background-color: #CDCDCD;
+    width: 105px;
+}
+
+#form input.senha{
+	width: 140px; 
+}
+#form input.idade{
+	width: 105px;
+}
+
+h1{
+	font-family: Arial;
+	text-align: center;
+	background-color: red;
+}
+
+h2{
+	font-family: Arial;
+}
+
+h3{
+	font-family: Arial;
+}
